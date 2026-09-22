@@ -1,0 +1,6 @@
+{
+  "title": "Hermes 的记忆系统",
+  "blurb": "SessionDB、FTS5、MemoryProvider、压缩与多说话人召回。",
+  "featured": false,
+  "tags": ["vox", "architecture", "memory"]
+}

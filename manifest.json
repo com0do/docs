@@ -1,0 +1,22 @@
+{
+  "site": {
+    "title": "Documents",
+    "subtitle": "PDF · Markdown"
+  },
+  "updated_at": "2026-09-22T09:00:00Z",
+  "documents": [
+    {
+      "id": "01_hermes_memory",
+      "title": "Hermes 的记忆系统",
+      "blurb": "SessionDB、FTS5、MemoryProvider、压缩与多说话人召回。",
+      "type": "pdf",
+      "path": "content/pdf/01_hermes_memory.pdf",
+      "featured": false,
+      "tags": [
+        "vox",
+        "architecture",
+        "memory"
+      ]
+    }
+  ]
+}

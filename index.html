@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Documents</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/site.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <div>
+          <h1 id="site-title">Documents</h1>
+          <p id="site-subtitle" class="site-subtitle"></p>
+        </div>
+        <label class="search" for="search-input">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <input id="search-input" type="search" placeholder="搜索文档…" />
+        </label>
+      </div>
+    </header>
+
+    <div class="toolbar">
+      <div id="tag-filters" class="chip-row" aria-label="标签筛选"></div>
+    </div>
+
+    <main class="layout">
+      <div id="doc-list" class="doc-list" aria-live="polite"></div>
+      <div id="empty-state" class="empty-state" hidden>没有匹配的文档。</div>
+    </main>
+
+    <script src="assets/js/site.js" defer></script>
+  </body>
+</html>
